@@ -31,11 +31,11 @@
     <action name="Reconfigure" />
   </item>
   <item label="Herstarten">
-    <action name="Execute"><execute>sudo reboot</execute></action>
+    <action name="Execute"><br /><br />Wil je het systeem opnieuw opstarten?<br /><br /></prompt><execute>reboot</execute></action>
   </item>
   <separator />
   <item label="Afsluiten">
-    <action name="Execute"><execute>sudo shutdown -P now</execute></action>
+    <action name="Execute"><prompt><br /><br />Wil je de computer uitschakelen?<br /><br /></prompt><execute>shutdown -P now</execute></action>
   </item>
 </menu>
 
