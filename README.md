@@ -1,4 +1,4 @@
-# obmenu
+# Personalized Openbox menufiles
 ### Explanation
 The files in /original are retrieved from Openbox, installed as a part of LXDE:
 * /etc/xdg/openbox/menu.xml (non-LXDE systems: ~/.config/openbox/menu.xml)
