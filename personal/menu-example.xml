@@ -20,35 +20,35 @@
     <item label="Kladblok" icon="/usr/share/pixmaps/leafpad.xpm">
       <action name="Execute"><execute>leafpad</execute></action>
     </item>
-    <item label="Rekenmachine" icon="/usr/share/gnome-system-tools/pixmaps/galculator.xpm">
+    <item label="Rekenmachine" icon="/usr/share/pixmaps/galculator.xpm">
       <action name="Execute"><execute>galculator</execute></action>
     </item>
-    <item label="Screenshots" icon="/usr/share/gnome-system-tools/pixmaps/lxterminal.xpm">
+    <item label="Screenshots" icon="/usr/share/pixmaps/lxterminal.xpm">
       <action name="Execute"><execute>gnome-screenshot --interactive</execute></action>
     </item>
-    <item label="Fotogalerij" icon="/usr/share/gnome-system-tools/pixmaps/user_icon.xpm">
+    <item label="Fotogalerij" icon="/usr/share/pixmaps/user_icon.xpm">
       <action name="Execute"><execute>gpicview</execute></action>
     </item>
-    <item label="Muziekspeler" icon="/usr/share/gnome-system-tools/pixmaps/lxmusic.png">
+    <item label="Muziekspeler" icon="/usr/share/pixmaps/lxmusic.png">
       <action name="Execute"><execute>lxmusic</execute></action>
     </item>
-    <item label="Videospeler" icon="/usr/share/gnome-system-tools/pixmaps/gnome-mplayer.xpm">
+    <item label="Videospeler" icon="/usr/share/pixmaps/gnome-mplayer.xpm">
       <action name="Execute"><execute>gnome-mplayer</execute></action>
     </item>
     <item label="Bestandsverkenner" icon="/usr/share/gnome-system-tools/pixmaps/shares.xpm">
       <action name="Execute"><execute>pcmanfm</execute></action>
     </item>
-    <item label="Archiefbestanden" icon="/usr/share/gnome-system-tools/pixmaps/xarchiver.xpm">
+    <item label="Archiefbestanden" icon="/usr/share/pixmaps/xarchiver.xpm">
       <action name="Execute"><execute>xarchiver</execute></action>
     </item>
     <menu id="systemtools-menu" label="Systeemwerkset">
       <item label="Speciale tekens" icon="/usr/share/pixmaps/gksu-debian.xpm">
         <action name="Execute"><execute>gnome-character-map</execute></action>
       </item>
-      <item label="Taakbeheer" icon="/usr/share/pixmaps/services.xpm">
+      <item label="Taakbeheer" icon="/usr/share/gnome-system-tools/pixmaps/services.xpm">
         <action name="Execute"><execute>lxtask</execute></action>
       </item>
-      <item label="Printers" icon="/usr/share/pixmaps/network.xpm">
+      <item label="Printers" icon="/usr/share/gnome-system-tools/pixmaps/network.xpm">
         <action name="Execute"><execute>system-config-printer</execute></action>
       </item>
       <item label="Screensavers" icon="/usr/share/pixmaps/xscreensaver.xpm">
