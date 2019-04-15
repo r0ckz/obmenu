@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Automatically generated file. Do not edit (see /usr/share/doc/menu/html) -->
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id='/Debian' label='Debian'>
+  <menu id='/Debian/Applications' label='Applications'>
+    <menu id='/Debian/Applications/Editors' label='Editors'>
+      <item label='LeafPad' icon='/usr/share/pixmaps/leafpad.xpm'>
+        <action name='Execute'><execute>/usr/bin/leafpad</execute></action>
+      </item>
+      <item label='Mg'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Mg&quot; -e sh -c &quot;/usr/bin/mg&quot;</execute></action>
+      </item>
+    </menu>
+    <menu id='/Debian/Applications/File Management' label='File Management'>
+      <item label='Xarchiver' icon='/usr/share/pixmaps/xarchiver.xpm'>
+        <action name='Execute'><execute>/usr/bin/xarchiver</execute></action>
+      </item>
+    </menu>
+    <menu id='/Debian/Applications/Network' label='Network'>
+      <menu id='/Debian/Applications/Network/File Transfer' label='File Transfer'>
+        <item label='Deluge BitTorrent Client' icon='/usr/share/pixmaps/deluge.xpm'>
+          <action name='Execute'><execute>/usr/bin/deluge</execute></action>
+        </item>
+      </menu>
+    </menu>
+    <menu id='/Debian/Applications/Science' label='Science'>
+      <menu id='/Debian/Applications/Science/Mathematics' label='Mathematics'>
+        <item label='Bc'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Bc&quot; -e sh -c &quot;/usr/bin/bc&quot;</execute></action>
+        </item>
+        <item label='galculator' icon='/usr/share/pixmaps/galculator.xpm'>
+          <action name='Execute'><execute>/usr/bin/galculator</execute></action>
+        </item>
+      </menu>
+    </menu>
+    <menu id='/Debian/Applications/Shells' label='Shells'>
+      <item label='Bash'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Bash&quot; -e sh -c &quot;/bin/bash --login&quot;</execute></action>
+      </item>
+      <item label='Dash'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Dash&quot; -e sh -c &quot;/bin/dash -i&quot;</execute></action>
+      </item>
+      <item label='Sh'>
+        <action name='Execute'><execute>x-terminal-emulator  -T &quot;Sh&quot; -e sh -c &quot;/bin/sh --login&quot;</execute></action>
+      </item>
+    </menu>
+    <menu id='/Debian/Applications/Sound' label='Sound'>
+      <item label='Alsamixergui' icon='/usr/share/pixmaps/alsamixergui.xpm'>
+        <action name='Execute'><execute>/usr/bin/alsamixergui</execute></action>
+      </item>
+    </menu>
+    <menu id='/Debian/Applications/System' label='System'>
+      <menu id='/Debian/Applications/System/Administration' label='Administration'>
+        <item label='About Myself' icon='/usr/share/pixmaps/user_icon.xpm'>
+          <action name='Execute'><execute>/usr/bin/userinfo</execute></action>
+        </item>
+        <item label='Disk Management' icon='/usr/share/pixmaps/disks.xpm'>
+          <action name='Execute'><execute>/usr/bin/usermount</execute></action>
+        </item>
+        <item label='Editres'>
+          <action name='Execute'><execute>editres</execute></action>
+        </item>
+        <item label='Network Admin' icon='/usr/share/gnome-system-tools/pixmaps/network.xpm'>
+          <action name='Execute'><execute>/usr/bin/network-admin</execute></action>
+        </item>
+        <item label='Openbox Configuration Manager' icon='/usr/share/pixmaps/obconf.xpm'>
+          <action name='Execute'><execute>/usr/bin/obconf</execute></action>
+        </item>
+        <item label='Password' icon='/usr/share/pixmaps/password.xpm'>
+          <action name='Execute'><execute>/usr/bin/userpasswd</execute></action>
+        </item>
+        <item label='Services Admin' icon='/usr/share/gnome-system-tools/pixmaps/services.xpm'>
+          <action name='Execute'><execute>/usr/bin/services-admin</execute></action>
+        </item>
+        <item label='Shares Admin' icon='/usr/share/gnome-system-tools/pixmaps/shares.xpm'>
+          <action name='Execute'><execute>/usr/bin/shares-admin</execute></action>
+        </item>
+        <item label='Time Admin' icon='/usr/share/gnome-system-tools/pixmaps/time.xpm'>
+          <action name='Execute'><execute>/usr/bin/time-admin</execute></action>
+        </item>
+        <item label='User accounts Admin' icon='/usr/share/gnome-system-tools/pixmaps/users.xpm'>
+          <action name='Execute'><execute>/usr/bin/users-admin</execute></action>
+        </item>
+        <item label='Xfontsel'>
+          <action name='Execute'><execute>xfontsel</execute></action>
+        </item>
+        <item label='Xkill'>
+          <action name='Execute'><execute>xkill</execute></action>
+        </item>
+        <item label='Xrefresh'>
+          <action name='Execute'><execute>xrefresh</execute></action>
+        </item>
+      </menu>
+      <menu id='/Debian/Applications/System/Hardware' label='Hardware'>
+        <item label='Xvidtune'>
+          <action name='Execute'><execute>xvidtune</execute></action>
+        </item>
+      </menu>
+      <menu id='/Debian/Applications/System/Language Environment' label='Language Environment'>
+        <item label='Input Method Configuration'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Input Method Configuration&quot; -e sh -c &quot;/usr/bin/im-config&quot;</execute></action>
+        </item>
+      </menu>
+      <menu id='/Debian/Applications/System/Monitoring' label='Monitoring'>
+        <item label='Pstree' icon='/usr/share/pixmaps/pstree16.xpm'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Pstree&quot; -e sh -c &quot;/usr/bin/pstree.x11&quot;</execute></action>
+        </item>
+        <item label='Top'>
+          <action name='Execute'><execute>x-terminal-emulator  -T &quot;Top&quot; -e sh -c &quot;/usr/bin/top&quot;</execute></action>
+        </item>
+        <item label='Xev'>
+          <action name='Execute'><execute>x-terminal-emulator -e xev</execute></action>
+        </item>
+      </menu>
+    </menu>
+    <menu id='/Debian/Applications/Terminal Emulators' label='Terminal Emulators'>
+      <item label='LXTerminal' icon='/usr/share/pixmaps/lxterminal.xpm'>
+        <action name='Execute'><execute>/usr/bin/lxterminal</execute></action>
+      </item>
+      <item label='X-Terminal as root (GKsu)' icon='/usr/share/pixmaps/gksu-debian.xpm'>
+        <action name='Execute'><execute>/usr/bin/gksu -u root /usr/bin/x-terminal-emulator</execute></action>
+      </item>
+      <item label='Xvt'>
+        <action name='Execute'><execute>/usr/bin/xvt -ls</execute></action>
+      </item>
+    </menu>
+    <menu id='/Debian/Applications/Text' label='Text'>
+      <item label='ClipIt'>
+        <action name='Execute'><execute>/usr/bin/clipit</execute></action>
+      </item>
+    </menu>
+    <menu id='/Debian/Applications/Video' label='Video'>
+      <item label='GNOME MPlayer' icon='/usr/share/pixmaps/gnome-mplayer.xpm'>
+        <action name='Execute'><execute>gnome-mplayer</execute></action>
+      </item>
+    </menu>
+  </menu>
+  <menu id='/Debian/Screen' label='Screen'>
+    <menu id='/Debian/Screen/Locking' label='Locking'>
+      <item label='Lock Screen (XScreenSaver)'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -lock</execute></action>
+      </item>
+    </menu>
+    <menu id='/Debian/Screen/Saving' label='Saving'>
+      <item label='Activate ScreenSaver (Next)'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -next</execute></action>
+      </item>
+      <item label='Activate ScreenSaver (Previous)'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -prev</execute></action>
+      </item>
+      <item label='Activate ScreenSaver (Random)'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -activate</execute></action>
+      </item>
+      <item label='Demo Screen Hacks'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -demo</execute></action>
+      </item>
+      <item label='Disable XScreenSaver'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -exit</execute></action>
+      </item>
+      <item label='Enable XScreenSaver'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver</execute></action>
+      </item>
+      <item label='Reinitialize XScreenSaver'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -restart</execute></action>
+      </item>
+      <item label='ScreenSaver Preferences'>
+        <action name='Execute'><execute>/usr/bin/xscreensaver-command -prefs</execute></action>
+      </item>
+    </menu>
+  </menu>
+  <menu id='/Debian/Window Managers' label='Window Managers'>
+    <item label='Openbox' icon='/usr/share/pixmaps/openbox.xpm'>
+      <action name='Restart'><execute>/usr/bin/openbox</execute></action>
+    </item>
+  </menu>
+</menu>
+
+</openbox_menu>
