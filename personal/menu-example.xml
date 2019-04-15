@@ -9,7 +9,7 @@
   <item label="Opdrachtprompt">
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
   </item>
-  <item label="Internet browser">
+  <item label="Internetbrowser">
     <action name="Execute"><execute>x-www-browser</execute></action>
   </item>
   <!-- This requires the presence of the 'menu' package to work -->
