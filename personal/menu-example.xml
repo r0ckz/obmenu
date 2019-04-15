@@ -14,6 +14,21 @@
   </item>
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="program-menu" label="Programma's">
+    <menu id="systemtools-menu" label="Systeemwerkset">
+      <item label="Speciale tekens" icon="/usr/share/pixmaps/gksu-debian.xpm">
+        <action name="Execute"><execute>gnome-character-map</execute></action>
+      </item>
+      <item label="Taakbeheer" icon="/usr/share/gnome-system-tools/pixmaps/services.xpm">
+        <action name="Execute"><execute>lxtask</execute></action>
+      </item>
+      <item label="Printers" icon="/usr/share/gnome-system-tools/pixmaps/network.xpm">
+        <action name="Execute"><execute>system-config-printer</execute></action>
+      </item>
+      <item label="Screensavers" icon="/usr/share/pixmaps/xscreensaver.xpm">
+        <action name="Execute"><execute>xscreensaver</execute></action>
+      </item>
+    </menu>
+    <separator />
     <item label="Openbox" icon="/usr/share/pixmaps/openbox.xpm">
       <action name="Execute"><execute>openbox --restart</execute></action>
     </item>
@@ -41,20 +56,6 @@
     <item label="Archiefbestanden" icon="/usr/share/pixmaps/xarchiver.xpm">
       <action name="Execute"><execute>xarchiver</execute></action>
     </item>
-    <menu id="systemtools-menu" label="Systeemwerkset">
-      <item label="Speciale tekens" icon="/usr/share/pixmaps/gksu-debian.xpm">
-        <action name="Execute"><execute>gnome-character-map</execute></action>
-      </item>
-      <item label="Taakbeheer" icon="/usr/share/gnome-system-tools/pixmaps/services.xpm">
-        <action name="Execute"><execute>lxtask</execute></action>
-      </item>
-      <item label="Printers" icon="/usr/share/gnome-system-tools/pixmaps/network.xpm">
-        <action name="Execute"><execute>system-config-printer</execute></action>
-      </item>
-      <item label="Screensavers" icon="/usr/share/pixmaps/xscreensaver.xpm">
-        <action name="Execute"><execute>xscreensaver</execute></action>
-      </item>
-    </menu>
   </menu>
   <separator />
   <menu id="client-list-menu" />
