@@ -14,7 +14,18 @@
   </item>
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="program-menu" label="Programma's">
+    <menu id="files-menu" label="Bestanden">
+      <item label="Bestandsverkenner" icon="/usr/share/gnome-system-tools/pixmaps/shares.xpm">
+        <action name="Execute"><execute>pcmanfm</execute></action>
+      </item>
+      <item label="Archiefbestanden" icon="/usr/share/pixmaps/xarchiver.xpm">
+        <action name="Execute"><execute>xarchiver</execute></action>
+      </item>
+    </menu>
     <menu id="systemtools-menu" label="Systeemwerkset">
+      <item label="Openbox" icon="/usr/share/pixmaps/openbox.xpm">
+        <action name="Execute"><execute>openbox --restart</execute></action>
+      </item>
       <item label="Speciale tekens" icon="/usr/share/pixmaps/gksu-debian.xpm">
         <action name="Execute"><execute>gnome-character-map</execute></action>
       </item>
@@ -29,9 +40,6 @@
       </item>
     </menu>
     <separator />
-    <item label="Openbox" icon="/usr/share/pixmaps/openbox.xpm">
-      <action name="Execute"><execute>openbox --restart</execute></action>
-    </item>
     <item label="Kladblok" icon="/usr/share/pixmaps/leafpad.xpm">
       <action name="Execute"><execute>leafpad</execute></action>
     </item>
@@ -49,12 +57,6 @@
     </item>
     <item label="Videospeler" icon="/usr/share/pixmaps/gnome-mplayer.xpm">
       <action name="Execute"><execute>gnome-mplayer</execute></action>
-    </item>
-    <item label="Bestandsverkenner" icon="/usr/share/gnome-system-tools/pixmaps/shares.xpm">
-      <action name="Execute"><execute>pcmanfm</execute></action>
-    </item>
-    <item label="Archiefbestanden" icon="/usr/share/pixmaps/xarchiver.xpm">
-      <action name="Execute"><execute>xarchiver</execute></action>
     </item>
   </menu>
   <separator />
