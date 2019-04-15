@@ -14,7 +14,10 @@
   </item>
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="program-menu" label="Programma's">
-    <item label="Bestandsverkenner" icon="/usr/share/pixmaps/openbox.xpm">
+    <item label="Openbox" icon="/usr/share/pixmaps/openbox.xpm">
+      <action name="Execute"><execute>openbox --restart</execute></action>
+    </item>
+    <item label="Bestandsverkenner" icon="/usr/share/gnome-system-tools/pixmaps/shares.xpm">
       <action name="Execute"><execute>pcmanfm</execute></action>
     </item>
     <item label="Kladblok" icon="/usr/share/pixmaps/leafpad.xpm">
@@ -30,10 +33,13 @@
   <item label="Vernieuwen">
     <action name="Reconfigure" />
   </item>
+  <separator />
+  <item label="Afmelden">
+    <action name="Execute"><prompt>Wil je uitloggen en terug naar het startscherm?</prompt><execute>openbox --exit</execute></action>
+  </item>
   <item label="Herstarten">
     <action name="Execute"><prompt>Wil je het systeem opnieuw opstarten?</prompt><execute>reboot</execute></action>
   </item>
-  <separator />
   <item label="Afsluiten">
     <action name="Execute"><prompt>Wil je de computer uitschakelen?</prompt><execute>shutdown -P now</execute></action>
   </item>
