@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="Opdrachtprompt">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+  <item label="Firefox">
+    <action name="Execute"><execute>x-www-browser</execute></action>
+  </item>
+  <!-- This requires the presence of the 'menu' package to work -->
+  <menu id="program-menu" label="Programma's">
+    <item label="Bestandsverkenner" icon="/usr/share/pixmaps/openbox.xpm">
+      <action name="Execute"><execute>pcmanfm</execute></action>
+    </item>
+    <item label="Kladblok" icon="/usr/share/pixmaps/leafpad.xpm">
+      <action name="Execute"><execute>leafpad</execute></action>
+    </item>
+  </menu>
+  <separator />
+  <menu id="client-list-menu" />
+  <separator />
+  <item label="Instellingen">
+    <action name="Execute"><execute>obconf</execute></action>
+  </item>
+  <item label="Vernieuwen">
+    <action name="Reconfigure" />
+  </item>
+  <item label="Herstarten">
+    <action name="Execute"><execute>sudo reboot</execute></action>
+  </item>
+  <separator />
+  <item label="Afsluiten">
+    <action name="Execute"><execute>sudo shutdown -P now</execute></action>
+  </item>
+</menu>
+
+</openbox_menu>
