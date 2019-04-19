@@ -26,7 +26,7 @@
       <item label="Openbox" icon="/usr/share/pixmaps/openbox.xpm">
         <action name="Execute"><execute>openbox --restart</execute></action>
       </item>
-      <item label="Configuratiescherm" icon="/usr/share/icons/Humanity/actions/16/document-properties.svg">
+      <item label="Systeeminstellingen" icon="/usr/share/icons/Humanity/actions/16/document-properties.svg">
         <action name="Execute"><execute>unity-control-center</execute></action>
       </item>
       <item label="Thema en stijl" icon="/usr/share/icons/Humanity/apps/16/preferences-system-windows.svg">
@@ -55,9 +55,6 @@
       </item>
       <item label="Screensavers" icon="/usr/share/pixmaps/xscreensaver.xpm">
         <action name="Execute"><execute>xscreensaver</execute></action>
-      </item>
-      <item label="Systeeminformatie" icon="/usr/share/icons/Humanity/actions/16/gtk-info.svg">
-        <action name="Execute"><execute>unity-info-panel</execute></action>
       </item>
     </menu>
     <separator />
