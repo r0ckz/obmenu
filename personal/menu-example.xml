@@ -15,7 +15,7 @@
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="program-menu" label="Programma's">
     <menu id="files-menu" label="Bestanden">
-      <item label="Bestandsverkenner" icon="/usr/share/gnome-system-tools/pixmaps/shares.xpm">
+      <item label="Bestandsverkenner" icon="/usr/share/icons/Humanity/places/16/folder.svg">
         <action name="Execute"><execute>pcmanfm</execute></action>
       </item>
       <item label="Archiefbestanden" icon="/usr/share/pixmaps/xarchiver.xpm">
@@ -26,17 +26,38 @@
       <item label="Openbox" icon="/usr/share/pixmaps/openbox.xpm">
         <action name="Execute"><execute>openbox --restart</execute></action>
       </item>
-      <item label="Speciale tekens" icon="/usr/share/pixmaps/gksu-debian.xpm">
-        <action name="Execute"><execute>gnome-character-map</execute></action>
+      <item label="Configuratiescherm" icon="/usr/share/icons/Humanity/actions/16/document-properties.svg">
+        <action name="Execute"><execute>unity-control-center</execute></action>
+      </item>
+      <item label="Thema en stijl" icon="/usr/share/icons/Humanity/apps/16/preferences-system-windows.svg">
+        <action name="Execute"><execute>lxappearance</execute></action>
+      </item>
+      <item label="Venstervoorkeuren">
+        <action name="Execute"><execute>obconf</execute></action>
+      </item>
+      <item label="Vernieuw vensters">
+        <action name="Reconfigure" />
+      </item>
+      <item label="Opstartbeheer" icon="/usr/share/icons/Humanity/actions/16/system-shutdown-restart-panel.svg">
+        <action name="Execute"><execute>lxsession-edit</execute></action>
+      </item>
+      <item label="Schijfpartities" icon="/usr/share/pixmaps/disks.xpm">
+        <action name="Execute"><execute>gnome-disks</execute></action>
       </item>
       <item label="Taakbeheer" icon="/usr/share/gnome-system-tools/pixmaps/services.xpm">
         <action name="Execute"><execute>lxtask</execute></action>
       </item>
-      <item label="Printers" icon="/usr/share/gnome-system-tools/pixmaps/network.xpm">
+      <item label="Printers" icon="/usr/share/icons/Humanity/devices/16/printer.svg">
         <action name="Execute"><execute>system-config-printer</execute></action>
+      </item>
+      <item label="Speciale tekens" icon="/usr/share/icons/gnome/16x16/apps/preferences-desktop-font.png">
+        <action name="Execute"><execute>gnome-character-map</execute></action>
       </item>
       <item label="Screensavers" icon="/usr/share/pixmaps/xscreensaver.xpm">
         <action name="Execute"><execute>xscreensaver</execute></action>
+      </item>
+      <item label="Systeeminformatie" icon="/usr/share/icons/Humanity/actions/16/gtkinfo.svg">
+        <action name="Execute"><execute>unity-info-panel</execute></action>
       </item>
     </menu>
     <separator />
@@ -46,10 +67,13 @@
     <item label="Rekenmachine" icon="/usr/share/pixmaps/galculator.xpm">
       <action name="Execute"><execute>galculator</execute></action>
     </item>
-    <item label="Screenshots" icon="/usr/share/pixmaps/lxterminal.xpm">
+    <item label="Screenshots" icon="/usr/share/icons/gnome/16x16/apps/applets-screenshooter.png">
       <action name="Execute"><execute>gnome-screenshot --interactive</execute></action>
     </item>
-    <item label="Fotogalerij" icon="/usr/share/pixmaps/user_icon.xpm">
+    <item label="Documenten" icon="/usr/share/icons/Humanity/mimes/16/x-office-document.svg">
+      <action name="Execute"><execute>evince</execute></action>
+    </item>
+    <item label="Fotogalerij" icon="/usr/share/icons/gnome/16x16/mimetypes/image-x-generic.png">
       <action name="Execute"><execute>gpicview</execute></action>
     </item>
     <item label="Muziekspeler" icon="/usr/share/pixmaps/lxmusic.png">
@@ -61,13 +85,6 @@
   </menu>
   <separator />
   <menu id="client-list-menu" />
-  <separator />
-  <item label="Instellingen">
-    <action name="Execute"><execute>obconf</execute></action>
-  </item>
-  <item label="Vernieuwen">
-    <action name="Reconfigure" />
-  </item>
   <separator />
   <item label="Afmelden">
     <action name="Execute"><prompt>Wil je uitloggen en terug naar het startscherm?</prompt><execute>openbox --exit</execute></action>
