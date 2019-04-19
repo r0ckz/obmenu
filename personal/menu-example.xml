@@ -32,10 +32,10 @@
       <item label="Thema en stijl" icon="/usr/share/icons/Humanity/apps/16/preferences-system-windows.svg">
         <action name="Execute"><execute>lxappearance</execute></action>
       </item>
-      <item label="Venstervoorkeuren">
+      <item label="Venstervoorkeuren" icon="/usr/share/icons/Humanity/apps/16/wmtweaks.svg">
         <action name="Execute"><execute>obconf</execute></action>
       </item>
-      <item label="Vernieuw vensters">
+      <item label="Vernieuw vensters" icon="/usr/share/icons/Humanity/actions/16/view-refresh.svg">
         <action name="Reconfigure" />
       </item>
       <item label="Opstartbeheer" icon="/usr/share/icons/Humanity/actions/16/system-shutdown-restart-panel.svg">
@@ -44,7 +44,7 @@
       <item label="Schijfpartities" icon="/usr/share/pixmaps/disks.xpm">
         <action name="Execute"><execute>gnome-disks</execute></action>
       </item>
-      <item label="Taakbeheer" icon="/usr/share/gnome-system-tools/pixmaps/services.xpm">
+      <item label="Taakbeheer" icon="/usr/share/icons/gnome/16x16/actions/process-stop.png">
         <action name="Execute"><execute>lxtask</execute></action>
       </item>
       <item label="Printers" icon="/usr/share/icons/Humanity/devices/16/printer.svg">
@@ -56,7 +56,7 @@
       <item label="Screensavers" icon="/usr/share/pixmaps/xscreensaver.xpm">
         <action name="Execute"><execute>xscreensaver</execute></action>
       </item>
-      <item label="Systeeminformatie" icon="/usr/share/icons/Humanity/actions/16/gtkinfo.svg">
+      <item label="Systeeminformatie" icon="/usr/share/icons/Humanity/actions/16/gtk-info.svg">
         <action name="Execute"><execute>unity-info-panel</execute></action>
       </item>
     </menu>
@@ -73,7 +73,7 @@
     <item label="Documenten" icon="/usr/share/icons/Humanity/mimes/16/x-office-document.svg">
       <action name="Execute"><execute>evince</execute></action>
     </item>
-    <item label="Fotogalerij" icon="/usr/share/icons/gnome/16x16/mimetypes/image-x-generic.png">
+    <item label="Fotogalerij" icon="/usr/share/icons/nuoveXT2/16x16/mimetypes/image-x-generic.png">
       <action name="Execute"><execute>gpicview</execute></action>
     </item>
     <item label="Muziekspeler" icon="/usr/share/pixmaps/lxmusic.png">
