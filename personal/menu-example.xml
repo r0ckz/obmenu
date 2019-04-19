@@ -47,7 +47,7 @@
       <item label="Taakbeheer" icon="/usr/share/icons/gnome/16x16/actions/process-stop.png">
         <action name="Execute"><execute>lxtask</execute></action>
       </item>
-      <item label="Printers" icon="/usr/share/icons/Humanity/devices/16/printer.svg">
+      <item label="Printers" icon="/usr/share/icons/Humanity/devices/24/printer.svg">
         <action name="Execute"><execute>system-config-printer</execute></action>
       </item>
       <item label="Speciale tekens" icon="/usr/share/icons/gnome/16x16/apps/preferences-desktop-font.png">
